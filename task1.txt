@@ -1,3 +1,8 @@
+ #The IP range of My Wi-Fi or LAN network
+Connection-specific DNS Suffix  . :
+   IPv4 Address. . . . . . . . . . . : 192.168.1.12
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
 # Nmap 7.97 scan initiated Mon Aug  4 18:18:55 2025 as: nmap -sS -oN scan.txt 192.168.1.0/24
 Nmap scan report for 192.168.1.1
 Host is up (0.013s latency).
@@ -40,3 +45,4 @@ PORT    STATE SERVICE
 445/tcp open  microsoft-ds
 
 # Nmap done at Mon Aug  4 18:19:44 2025 -- 256 IP addresses (5 hosts up) scanned in 49.56 seconds
+
